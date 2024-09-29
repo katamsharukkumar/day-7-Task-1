@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Email Validation (Gmail, Yahoo, Outlook):</h1>
+  <hr>
+
+  <form action="" method="get">
+      <label for="email">Enter your Email:</label>
+      <input type="text" id="email" name="email"
+          pattern="[a-z\d.]+@(gmail|yahoo|outlook)+\.(com|org|co|in|org|gov)" required autofocus
+          autocomplete="off"
+          title="Only Gmail, Yahoo, and Outlook domains are accepted. Allowed only top-level domains: .com, .co, .org, .in, .gov"><br>
+      <br>
+      <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
